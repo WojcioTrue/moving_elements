@@ -12,7 +12,7 @@
 
 
 ## General Information
-- moving element(s) when your mouse move
+- moving element(s) when your mouse move 
 - can modify speed of x-axis, y-axis, reverse x-asis, reverse y-axis, media query breakpoints
 - practicing JavaScript, modifying CSS with JS, better understanding of EventListener, guard clause technique
 
