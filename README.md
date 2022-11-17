@@ -30,12 +30,12 @@ There are some values for plugin that you can change.
 
 - **data-me-breakpoint (default value="lg")**<br/>
 This attribute accepts six values:<br/>
-all - for all types of devices<br/>
-sm - for devices with width resolution >= 576px<br/>
-md - for devices with width resolution >= 768px<br/>
-lg - for devices with width resolution >= 992px<br/>
-xl - for devices with width resolution >= 1200px<br/>
-xxl - for devices with width resolution >= 1400px<br/>
+**all** - for all types of devices<br/>
+**sm** - for devices with width resolution >= 576px<br/>
+**md** - for devices with width resolution >= 768px<br/>
+**lg** - for devices with width resolution >= 992px<br/>
+**xl** - for devices with width resolution >= 1200px<br/>
+**xxl** - for devices with width resolution >= 1400px<br/>
 
 
      data-me-breakpoint="md"
