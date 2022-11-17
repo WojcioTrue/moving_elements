@@ -1,5 +1,5 @@
 # Moving_elements
->Changing position of element when your mouse move. Made this for my portfolio website.<br/>
+>Changing position of element(s) when your mouse move. Made this for my portfolio website.<br/>
 > Live demo [_here_](https://htmlpreview.github.io/?https://github.com/WojcioTrue/moving_elements/blob/master/index.html).
 
 ## Table of Contents
@@ -12,9 +12,9 @@
 
 
 ## General Information
-- moving elements when your mouse move
+- moving element(s) when your mouse move
 - can modify speed of x-axis, y-axis, reverse x-asis, reverse y-axis, media query breakpoints
-- practicing JavaScript, modifying CSS with JS, better understanding of event listener, guard clause technique
+- practicing JavaScript, modifying CSS with JS, better understanding of EventListener, guard clause technique
 
 
 
@@ -26,7 +26,7 @@
 
 
 ## Features
-There are some values for plugin that you can change.
+There are attributes for plugin that you can change.
 
 - **data-me-breakpoint (default value="lg")**<br/>
 This attribute accepts six values:<br/>
@@ -35,42 +35,42 @@ This attribute accepts six values:<br/>
 **md** - for devices with width resolution >= 768px<br/>
 **lg** - for devices with width resolution >= 992px<br/>
 **xl** - for devices with width resolution >= 1200px<br/>
-**xxl** - for devices with width resolution >= 1400px<br/>
+**xxl** - for devices with width resolution >= 1400px
+<br/>
 
-
-     data-me-breakpoint="md"
+	data-me-breakpoint="md"
 
 - **data-me-speed-x (default value=25)**
 
-Speed of movement of element when mouse move in x-axis direction (from left to right and vice versa). Higher value equals faster movement of element.
-Safe values for this attribute are between 0 (very slow) to 50 (pretty fast).
+Speed of movement of element(s) when mouse move in x-axis direction (from left to right and vice versa). Higher value equals faster movement of element(s).
+Recommended values for this attribute are between 0 (very slow) to 50 (pretty fast).
 
 	data-me-speed-x="40"
 
 
 - **data-me-speed-y (default value=25)**
 
-Speed of movement of element when mouse move in y-axis direction (from top to bottom and vice versa). Higher value equals faster movement of element.
-Safe values for this attribute are between 0 (very slow) to 50 (pretty fast).
+Speed of movement of element(s) when mouse move in y-axis direction (from top to bottom and vice versa). Higher value equals faster movement of element.
+Recommended values for this attribute are between 0 (very slow) to 50 (pretty fast).
 
 	data-me-speed-y="40"
 
 
 - **data-me-reverse-x (default value="0")**
 
-User can reverse x-asis movement of element. For example: if you move your cursor to left direction on the screen, and your data-me-reverse-x is set to 1, elements will move to right side, in opposit direction.
+User can reverse x-asis movement of element(s). For example: if you move your cursor to left direction on the screen, and your data-me-reverse-x is set to 1, elements will move to right side, in opposit direction.
 
 	data-me-reverse-x="1"
 
 - **data-me-reverse-y (default value="0")**
 
-User can reverse y-asis movement of element. For example: if you move your cursor to top direction of the screen, and your data-me-reverse-y is set to 1, elements will move to bottom side, in opposit direction.
+User can reverse y-asis movement of element(s). For example: if you move your cursor to top direction of the screen, and your data-me-reverse-y is set to 1, elements will move to bottom side, in opposit direction.
 
 	data-me-reverse-y="1"
 	
 - **data-me-animation-mobile (if empty, return undefined)**
 
-Animation your webisite will initiate, if resolution of device is lower than breakpoint resolution you choose in `data-me-breakpoint` attribute. Use `@keyframes` to make your own animation in CSS, and then pass it as class in attribute. 
+Animation your webisite will be initiated, if resolution of device is lower than breakpoint resolution you choose in `data-me-breakpoint` attribute. Use `@keyframes` to make your own animation in CSS, and then pass it as class in attribute. 
 
 	data-me-animation-mobile="Your__keyframe__animation"
 
