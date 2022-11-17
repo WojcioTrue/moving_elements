@@ -28,8 +28,8 @@
 ## Features
 There are some values for plugin that you can change.
 
-- **data-me-breakpoint (default value="lg")**
-This attribute accepts six values:
+- **data-me-breakpoint (default value="lg")**<br/>
+This attribute accepts six values:<br/>
 all - for all types of devices<br/>
 sm - for devices with width resolution >= 576px<br/>
 md - for devices with width resolution >= 768px<br/>
