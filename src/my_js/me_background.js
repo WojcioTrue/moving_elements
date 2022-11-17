@@ -3,7 +3,7 @@
 function moveElement(){
 	// breakpoints for different resolutions
 	const breakPoints = {
-		none: 0,
+		all: 0,
 		sm: 576,
 		md: 768,
 		lg: 992,
@@ -16,9 +16,9 @@ function moveElement(){
 	// children element(s) to move
 	const elementToMove = document.querySelectorAll('.data__me__element');
 	// read resolution from 'breakPoints'
-	const breakPointsKey = elementContainer.dataset.meBreakpoint.toLowerCase();
-	const responsiveBreakPoint = breakPoints[breakPointsKey];
-
+	const breakPointsKey = elementContainer.dataset.meBreakpoint;
+	const responsiveBreakPoint = breakPoints[breakPointsKey] || breakPoints["lg"];
+	console.log(responsiveBreakPoint);
 	function initiateMove(){
 	//get middle of X,Y axis 
 
