@@ -17,8 +17,9 @@ function moveElement(){
 	const elementToMove = document.querySelectorAll('.data__me__element');
 	// read media query breakpoints from parent element
 	const breakPointsKey = elementContainer.dataset.meBreakpoint;
-
+	
 	const responsiveBreakPoint = breakPoints[breakPointsKey.toLowerCase()] || breakPoints["lg"];
+	console.log(`${responsiveBreakPoint} \n ${window.innerWidth}`);
 	function initiateMove(){
 	//get middle of X,Y axis 
 
