@@ -19,7 +19,7 @@ function moveElement(){
 	const breakPointsKey = elementContainer.dataset.meBreakpoint;
 	
 	const responsiveBreakPoint = breakPoints[breakPointsKey.toLowerCase()] || breakPoints["lg"];
-	console.log(`${responsiveBreakPoint} \n ${window.innerWidth}`);
+	
 	function initiateMove(){
 	//get middle of X,Y axis 
 
