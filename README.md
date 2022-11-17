@@ -78,6 +78,7 @@ Animation your webisite will be initiated, if resolution of device is lower than
 
 ## Setup
 **How to install**
+<br/>
 Download 'css' and 'js' folders from 'dist' folder.
 Copy them to your website project directory.
 Paste css href in `</head>` element 
