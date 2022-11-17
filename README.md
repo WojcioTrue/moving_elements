@@ -96,7 +96,7 @@ After download and adding to your website, you need to choose which element(s) y
 
 **e.g.**
 
-	<div  id="data__me__containter" >
+	<div  id="data__me__containter">
       <div class="data__me__element">
       </div>
     </div>
