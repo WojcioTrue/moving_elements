@@ -91,7 +91,7 @@ Add script before `</body>` tag and initiate
     <script src ="dist/js/me_background.js.js"></script>
 
 ## Usage
-After download and adding to your website, you need to choose which element(s) you want to move. Element(s) parent need to have id `"data__me__containter"`. After that, add to element(s) that you want to move class `"data__me__element"`.
+After download and adding to your website, you need to choose which element(s) you want to move. Parent Element need to have id `"data__me__containter"`. After that, add to element(s) that you want to move class `"data__me__element"`.
 
 
 **e.g.**
