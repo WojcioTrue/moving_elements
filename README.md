@@ -26,7 +26,7 @@
 
 
 ## Features
-There are attributes for plugin that you can change.
+There are attributes for plugin that you can change .
 
 - **data-me-breakpoint (default value="lg")**<br/>
 This attribute accepts six values:<br/>
